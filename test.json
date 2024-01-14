@@ -1,0 +1,82 @@
+{
+  "KeycardDoor": [
+    {
+      "doorClassName": "evg_simpleDoor1",
+      "doorPosition": [1486.6324462890625, 19.177337646484375, 9925.9765625],
+      "doorRotation": [0, 0, 0],
+      "enableSwipeSound": 1,
+      "enableErrorSound": 1,
+      "enableCloseSound": 1,
+      "locationName": "LOCATION NAME",
+      "autoCloseTime": 30,
+      "itemsToOpenDoor": ["evg_keycards_All"],
+      "secondsNotify": 30,
+      "damageToKeycardMap": 100
+    },
+    {
+      "doorClassName": "evg_gate_Wall1",
+      "doorPosition": [5320.31982421875, 4.667630195617676, 9749.1904296875],
+      "doorRotation": [-90, 0, 0],
+      "enableSwipeSound": 1,
+      "enableErrorSound": 1,
+      "enableCloseSound": 1,
+      "locationName": "LOCATION NAME",
+      "autoCloseTime": 30,
+      "itemsToOpenDoor": ["evg_keycards_All"],
+      "secondsNotify": 30,
+      "damageToKeycardMap": 100
+    },
+    {
+      "doorClassName": "evg_barDoor_DoubleWall2",
+      "doorPosition": [8766.3759765625, 3.9036736488342285, 8758.439453125],
+      "doorRotation": [116.99996185302734, 0, 0],
+      "enableSwipeSound": 1,
+      "enableErrorSound": 1,
+      "enableCloseSound": 1,
+      "locationName": "LOCATION NAME",
+      "autoCloseTime": 30,
+      "itemsToOpenDoor": ["evg_keycards_All"],
+      "secondsNotify": 30,
+      "damageToKeycardMap": 100
+    },
+    {
+      "doorClassName": "evg_outsideDoor_Double",
+      "doorPosition": [6454.89697265625, 6.611981391906738, 9078.837890625],
+      "doorRotation": [46.499996185302734, 0, 0],
+      "enableSwipeSound": 1,
+      "enableErrorSound": 1,
+      "enableCloseSound": 1,
+      "locationName": "LOCATION NAME",
+      "autoCloseTime": 30,
+      "itemsToOpenDoor": ["evg_keycards_All"],
+      "secondsNotify": 30,
+      "damageToKeycardMap": 100
+    },
+    {
+      "doorClassName": "evg_simpleDoor3_DoubleWall2",
+      "doorPosition": [6408.58642578125, 6.558804512023926, 5899.1220703125],
+      "doorRotation": [0, 0, 0],
+      "enableSwipeSound": 1,
+      "enableErrorSound": 1,
+      "enableCloseSound": 1,
+      "locationName": "LOCATION NAME",
+      "autoCloseTime": 30,
+      "itemsToOpenDoor": ["evg_keycards_All"],
+      "secondsNotify": 30,
+      "damageToKeycardMap": 100
+    },
+    {
+      "doorClassName": "evg_outsideDoor",
+      "doorPosition": [2414.598388671875, 30.959754943847656, 7196.1552734375],
+      "doorRotation": [-89.99995422363281, 0, 0],
+      "enableSwipeSound": 1,
+      "enableErrorSound": 1,
+      "enableCloseSound": 1,
+      "locationName": "LOCATION NAME",
+      "autoCloseTime": 30,
+      "itemsToOpenDoor": ["evg_keycards_All"],
+      "secondsNotify": 30,
+      "damageToKeycardMap": 100
+    }
+  ]
+}
