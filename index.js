@@ -5,7 +5,7 @@ const readFile = (path) => {
   return json.Objects
 }
 const filterName = (reg, arr) => {
-  return arr.filter((i) => reg.test(i.name))
+  return arr.filter((i) => !reg.test(i.name))
 }
 const writeFile = (filePath, file) => {
   fs.writeFileSync(filePath, JSON.stringify(file))
@@ -31,7 +31,7 @@ const customMap = (doorType) => {
   const itemsToOpenDoorMap = {}
   const secondsNotifyMap = {}
   const damageToKeycardMap = {}
-  
+
   return {
     autoCloseTime: autoCloseTimeMap[doorType] ? autoCloseTimeMap[doorType] : 30,
     itemsToOpenDoor: itemsToOpenDoorMap[doorType]
@@ -46,7 +46,8 @@ const customMap = (doorType) => {
 const main = () => {
   const regex = /\bevg_\w+/g
   const path = 'DOOROVER.json'
-  const res = parse(filterName(regex, readFile(path)))
+  // const res = parse(filterName(regex, readFile(path)))
+  const res = filterName(regex, readFile(path))
 
   const outputPath = 'test.json'
   writeFile(outputPath, res)
